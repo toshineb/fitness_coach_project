@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fitness Coach Research Codebase
 
 This project was prepared for a dissertation on fitness coaching using computer vision, angle features, exercise classification, and rule-based corrective feedback.
@@ -84,3 +85,6 @@ streamlit run "c:/Users/USER/Documents/Analysis/fitness_coach_project/fitness_co
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
+=======
+# fitness_coach_project
+>>>>>>> 02867c7d762c5b19ee900cd75e11cae7d7cddf16
