@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.9689482921560686,
+  "balanced_accuracy": 0.9652140581169554,
+  "macro_f1": 0.9674681507357259,
+  "weighted_f1": 0.9688818252394892,
+  "report": {
+    "Jumping Jacks": {
+      "precision": 0.9735812133072407,
+      "recall": 0.95489443378119,
+      "f1-score": 0.9641472868217055,
+      "support": 1042.0
+    },
+    "No Exercise": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1200.0
+    },
+    "Pull ups": {
+      "precision": 0.9433823529411764,
+      "recall": 0.9632132132132132,
+      "f1-score": 0.9531946508172363,
+      "support": 1332.0
+    },
+    "Push Ups": {
+      "precision": 0.9669172932330827,
+      "recall": 0.9877112135176651,
+      "f1-score": 0.9772036474164134,
+      "support": 1953.0
+    },
+    "Russian twists": {
+      "precision": 0.9803468208092485,
+      "recall": 0.9625425652667423,
+      "f1-score": 0.9713631156930126,
+      "support": 881.0
+    },
+    "Squats": {
+      "precision": 0.9554404145077721,
+      "recall": 0.9229229229229229,
+      "f1-score": 0.9389002036659878,
+      "support": 999.0
+    },
+    "accuracy": 0.9689482921560686,
+    "macro avg": {
+      "precision": 0.9699446824664201,
+      "recall": 0.9652140581169554,
+      "f1-score": 0.9674681507357259,
+      "support": 7407.0
+    },
+    "weighted avg": {
+      "precision": 0.9690315803016355,
+      "recall": 0.9689482921560686,
+      "f1-score": 0.9688818252394892,
+      "support": 7407.0
+    }
+  }
+}

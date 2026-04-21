@@ -1,0 +1,12 @@
+                precision    recall  f1-score   support
+
+ Jumping Jacks       0.97      0.97      0.97       521
+   No Exercise       1.00      1.00      1.00       600
+      Pull ups       0.96      0.95      0.95       666
+      Push Ups       0.97      0.99      0.98       977
+Russian twists       0.98      0.97      0.97       440
+        Squats       0.95      0.93      0.94       500
+
+      accuracy                           0.97      3704
+     macro avg       0.97      0.97      0.97      3704
+  weighted avg       0.97      0.97      0.97      3704
