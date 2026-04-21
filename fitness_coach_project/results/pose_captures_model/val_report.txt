@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+       Lunge       0.00      0.00      0.00         2
+       Plank       0.00      0.00      0.00         1
+    Push Ups       1.00      0.50      0.67         2
+       Squat       0.50      1.00      0.67         2
+
+    accuracy                           0.43         7
+   macro avg       0.38      0.38      0.33         7
+weighted avg       0.43      0.43      0.38         7

@@ -1,0 +1,45 @@
+{
+  "rows": 37033,
+  "features_used": [
+    "Shoulder_Angle",
+    "Elbow_Angle",
+    "Hip_Angle",
+    "Knee_Angle",
+    "Ankle_Angle",
+    "Shoulder_Ground_Angle",
+    "Elbow_Ground_Angle",
+    "Hip_Ground_Angle",
+    "Knee_Ground_Angle",
+    "Ankle_Ground_Angle",
+    "Side_is_left"
+  ],
+  "labels": [
+    "Jumping Jacks",
+    "No Exercise",
+    "Pull ups",
+    "Push Ups",
+    "Russian twists",
+    "Squats"
+  ],
+  "class_counts": {
+    "Push Ups": 9764,
+    "Pull ups": 6659,
+    "No Exercise": 6000,
+    "Jumping Jacks": 5209,
+    "Squats": 4997,
+    "Russian twists": 4404
+  },
+  "model_name": "random_forest",
+  "validation": {
+    "accuracy": 0.9716522678185745,
+    "balanced_accuracy": 0.9686115369068758,
+    "macro_f1": 0.9701011009771396,
+    "weighted_f1": 0.9715784424597493
+  },
+  "test": {
+    "accuracy": 0.9689482921560686,
+    "balanced_accuracy": 0.9652140581169554,
+    "macro_f1": 0.9674681507357259,
+    "weighted_f1": 0.9688818252394892
+  }
+}

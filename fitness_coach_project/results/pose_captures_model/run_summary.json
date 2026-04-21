@@ -1,0 +1,43 @@
+{
+  "rows": 64,
+  "features_used": [
+    "Shoulder_Angle",
+    "Elbow_Angle",
+    "Hip_Angle",
+    "Knee_Angle",
+    "Ankle_Angle",
+    "Shoulder_Ground_Angle",
+    "Elbow_Ground_Angle",
+    "Hip_Ground_Angle",
+    "Knee_Ground_Angle",
+    "Ankle_Ground_Angle",
+    "Side_is_left"
+  ],
+  "labels": [
+    "Lunge",
+    "Plank",
+    "Push Ups",
+    "Shoulder Press",
+    "Squat"
+  ],
+  "class_counts": {
+    "Squat": 21,
+    "Lunge": 17,
+    "Push Ups": 13,
+    "Plank": 10,
+    "Shoulder Press": 3
+  },
+  "model_name": "random_forest",
+  "validation": {
+    "accuracy": 0.42857142857142855,
+    "balanced_accuracy": 0.375,
+    "macro_f1": 0.3333333333333333,
+    "weighted_f1": 0.38095238095238093
+  },
+  "test": {
+    "accuracy": 0.6923076923076923,
+    "balanced_accuracy": 0.6333333333333333,
+    "macro_f1": 0.5866666666666667,
+    "weighted_f1": 0.6666666666666666
+  }
+}

@@ -1,0 +1,25 @@
+[theme]
+primaryColor = "#00A8E8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+showErrorDetails = false
+showWarningOnDirectExecution = false
+toolbarMode = "minimal"
+
+[logger]
+level = "info"
+
+[server]
+maxUploadSize = 1024
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[equitable]
+# Set specific timeouts and configurations
+poolSize = 20

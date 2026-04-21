@@ -1,0 +1,259 @@
+{
+  "objective": "II: Deep Learning Classification Model",
+  "timestamp": "2026-04-09T05:54:35.286858",
+  "data_summary": {
+    "total_samples": 37033,
+    "total_exercises": 6,
+    "total_features": 10,
+    "form_distribution": {
+      "Incorrect": 26499,
+      "Correct": 9772,
+      "Near_Form": 762
+    }
+  },
+  "feature_analysis": {
+    "feature_importance": {
+      "feature": [
+        "Ankle_Angle",
+        "Shoulder_Angle",
+        "Hip_Angle",
+        "Elbow_Angle",
+        "Knee_Angle",
+        "Ankle_Ground_Angle",
+        "Hip_Ground_Angle",
+        "Knee_Ground_Angle",
+        "Elbow_Ground_Angle",
+        "Shoulder_Ground_Angle"
+      ],
+      "importance": [
+        0.2951323486939098,
+        0.21301679365251616,
+        0.16944739687698787,
+        0.1555110045358723,
+        0.11940556170427173,
+        0.02315098225028283,
+        0.012732237063374058,
+        0.0088062488411016,
+        0.0016640849800314264,
+        0.0011333414016523593
+      ]
+    },
+    "top_5_features": [
+      "Ankle_Angle",
+      "Shoulder_Angle",
+      "Hip_Angle",
+      "Elbow_Angle",
+      "Knee_Angle"
+    ]
+  },
+  "exercise_type_classification": {
+    "Random Forest": {
+      "cv_mean": 0.9694596979501441,
+      "cv_std": 0.001680134532490522,
+      "cv_scores": [
+        0.9673282030511678,
+        0.9680032401782098,
+        0.9720534629404617,
+        0.9696192276532541,
+        0.9702943559276263
+      ],
+      "train_accuracy": 0.9941133583560608,
+      "balanced_accuracy": 0.9933410108033182,
+      "macro_f1": 0.9939811846720167,
+      "classification_report": {
+        "Jumping Jacks": {
+          "precision": 0.9907887161773172,
+          "recall": 0.991169130351315,
+          "f1-score": 0.990978886756238,
+          "support": 5209.0
+        },
+        "No Exercise": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6000.0
+        },
+        "Pull ups": {
+          "precision": 0.9874439461883409,
+          "recall": 0.9920408469740202,
+          "f1-score": 0.9897370589557271,
+          "support": 6659.0
+        },
+        "Push Ups": {
+          "precision": 0.992872416250891,
+          "recall": 0.9986685784514543,
+          "f1-score": 0.9957620628031657,
+          "support": 9764.0
+        },
+        "Russian twists": {
+          "precision": 1.0,
+          "recall": 0.9947774750227066,
+          "f1-score": 0.9973819009675583,
+          "support": 4404.0
+        },
+        "Squats": {
+          "precision": 0.9967545638945233,
+          "recall": 0.9833900340204123,
+          "f1-score": 0.9900271985494107,
+          "support": 4997.0
+        },
+        "accuracy": 0.9941133583560608,
+        "macro avg": {
+          "precision": 0.9946432737518455,
+          "recall": 0.9933410108033182,
+          "f1-score": 0.9939811846720167,
+          "support": 37033.0
+        },
+        "weighted avg": {
+          "precision": 0.994129465295559,
+          "recall": 0.9941133583560608,
+          "f1-score": 0.9941113245192688,
+          "support": 37033.0
+        }
+      }
+    },
+    "MLP Classifier": {
+      "cv_mean": 0.9441575600457647,
+      "cv_std": 0.00594072414810223,
+      "cv_scores": [
+        0.9527474011070609,
+        0.9481571486431754,
+        0.9446469555825571,
+        0.9382932757223873,
+        0.936943019173643
+      ],
+      "train_accuracy": 0.9449680015121649,
+      "balanced_accuracy": 0.9395247871426956,
+      "macro_f1": 0.9396298325913862,
+      "classification_report": {
+        "Jumping Jacks": {
+          "precision": 0.84287912463669,
+          "recall": 0.9464388558264543,
+          "f1-score": 0.8916621450533551,
+          "support": 5209.0
+        },
+        "No Exercise": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6000.0
+        },
+        "Pull ups": {
+          "precision": 0.9116258483328415,
+          "recall": 0.9279171046703709,
+          "f1-score": 0.919699337649773,
+          "support": 6659.0
+        },
+        "Push Ups": {
+          "precision": 0.9852257464614113,
+          "recall": 0.9766489143793528,
+          "f1-score": 0.9809185825232731,
+          "support": 9764.0
+        },
+        "Russian twists": {
+          "precision": 0.9749030344512891,
+          "recall": 0.9702543142597638,
+          "f1-score": 0.9725731193809036,
+          "support": 4404.0
+        },
+        "Squats": {
+          "precision": 0.93853591160221,
+          "recall": 0.8158895337202321,
+          "f1-score": 0.8729258109410127,
+          "support": 4997.0
+        },
+        "accuracy": 0.9449680015121649,
+        "macro avg": {
+          "precision": 0.9421949442474068,
+          "recall": 0.9395247871426956,
+          "f1-score": 0.9396298325913862,
+          "support": 37033.0
+        },
+        "weighted avg": {
+          "precision": 0.9468353896991832,
+          "recall": 0.9449680015121649,
+          "f1-score": 0.9448831403822467,
+          "support": 37033.0
+        }
+      }
+    }
+  },
+  "form_classification_results": {
+    "cv_mean_f1": 0.9658820175469425,
+    "cv_std_f1": 0.004006145186925761,
+    "cv_scores": [
+      0.963248522230789,
+      0.9598362752622154,
+      0.9696351109977035,
+      0.9706407965279551,
+      0.9660493827160493
+    ],
+    "accuracy": 0.9964434396625403,
+    "macro_f1": 0.9954854961454795,
+    "classification_report": {
+      "Incorrect": {
+        "precision": 0.9979229607250756,
+        "recall": 0.9972074417902562,
+        "f1-score": 0.9975650729534343,
+        "support": 26499.0
+      },
+      "Correct": {
+        "precision": 0.9924420386068838,
+        "recall": 0.9943716741711011,
+        "f1-score": 0.9934059193375249,
+        "support": 9772.0
+      },
+      "accuracy": 0.9964434396625403,
+      "macro avg": {
+        "precision": 0.9951824996659797,
+        "recall": 0.9957895579806786,
+        "f1-score": 0.9954854961454795,
+        "support": 36271.0
+      },
+      "weighted avg": {
+        "precision": 0.996446310758464,
+        "recall": 0.9964434396625403,
+        "f1-score": 0.9964445290165517,
+        "support": 36271.0
+      }
+    }
+  },
+  "generalization_performance": {
+    "Jumping Jacks": {
+      "accuracy": 0.0,
+      "f1": 0.0,
+      "samples": 5209
+    },
+    "Squats": {
+      "accuracy": 0.0,
+      "f1": 0.0,
+      "samples": 4997
+    },
+    "Push Ups": {
+      "accuracy": 0.0,
+      "f1": 0.0,
+      "samples": 9764
+    },
+    "Pull ups": {
+      "accuracy": 0.0,
+      "f1": 0.0,
+      "samples": 6659
+    },
+    "Russian twists": {
+      "accuracy": 0.0,
+      "f1": 0.0,
+      "samples": 4404
+    },
+    "No Exercise": {
+      "accuracy": 0.0,
+      "f1": 0.0,
+      "samples": 6000
+    }
+  },
+  "limitations": {
+    "form_labels_synthetic": true,
+    "reason": "No correct/incorrect labels in original dataset",
+    "methodology": "Created using statistical deviation from exercise-specific norms",
+    "validation_needed": "Requires human annotation to validate synthetic labels"
+  }
+}
