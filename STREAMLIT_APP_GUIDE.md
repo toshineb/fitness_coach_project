@@ -72,6 +72,10 @@ python run_app.py
 # Option 2: Direct streamlit command
 streamlit run streamlit_app.py
 ```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
 
 The application will open automatically in your default browser at `http://localhost:8501`
 
