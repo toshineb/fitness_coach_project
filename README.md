@@ -79,12 +79,19 @@ Use the rule engine in `realtime_pose_coach.py` to validate interpretable feedba
 
 Use the end-to-end pipeline and exported session logs to report integrated performance.
 
+
+# Run the app
 streamlit run "c:/Users/USER/Documents/Analysis/fitness_coach_project/fitness_coach_project/streamlit_app.py"
 
 
-python -m venv .venv
-.venv\Scripts\activate
+cd "c:\Users\USER\Documents\Niyi Analysis\fitness_coach_project\fitness_coach_project"
+python -m venv venv
+## Activate virtual environment (if not already active)
+.venv-2\Scripts\activate
+or
+source venv/Scripts/activate
+## Install dependencies
 pip install -r requirements.txt
-=======
-# fitness_coach_project
->>>>>>> 02867c7d762c5b19ee900cd75e11cae7d7cddf16
+pip install ultralytics
+
+streamlit run streamlit_app.py
